@@ -37,17 +37,4 @@ class MobileBankApiStudentTest {
             .body(matchesJsonSchemaInClasspath("accounts.schema.json"));
     }
 
-    @Test
-    void shouldReturnCurrencyValueRUBOrUSD() {
-        // Given - When - Then
-        // Предусловия
-        given()
-            .baseUri("http://localhost:9999/api/v1")
-        // Выполняемые действия
-        .when()
-            .get("/demo/accounts")
-        // Проверки
-        .then()
-            .body("every{ it.currency.equals(\"RUB\") || it.currency.equals(\"USD\") }", is(true));
-    }
 }
