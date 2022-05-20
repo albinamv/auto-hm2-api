@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.netology.rest.MobileBankApiTestV1" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-20T15:24:49" hostname="DESKTOP-I2GBCBB" time="3.265">
+  <properties/>
+  <testcase name="shouldReturnDemoAccounts()" classname="ru.netology.rest.MobileBankApiTestV1" time="3.265"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
